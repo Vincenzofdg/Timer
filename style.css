@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+
+.data-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.data-input {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.input-number {
+    background-color: #092981;
+    font-weight: bold;
+    color: rgb(243, 225, 225);
+    cursor: pointer;
+    width: 120px;
+    margin: 8rem 0 3rem;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.menu-btn {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1rem 2rem 4rem;
+    width: 180px;
+}
+
+.action-btn {
+    background-color: #3b409e;
+    color: #cbafe7;
+    font-weight: bold;
+    width: 80px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
