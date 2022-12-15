@@ -3,10 +3,9 @@ On this project I intended to create a simple countdown timer to help on daily t
 Since it's a simple application, there was no reason for using any framework.
 
 ## About the Project:
-### Type: JavaScript
-
-- DOM and Selector;
-- Working with Elements;
-- Events;
+- Type: JavaScript
+- DOM and Selector
+- Working with Elements
+- Events
 
 ![image](preview.gif)
