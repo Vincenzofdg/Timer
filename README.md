@@ -7,7 +7,6 @@ Since it's a simple application, there was no reason for using any framework.
 - DOM and Selector
 - Working with Elements
 - Events
-##
 
 ## Preview
 ![image](preview.gif)
